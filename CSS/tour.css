@@ -1,0 +1,110 @@
+@font-face {
+    src:url("FONTS/baconfarm.ttf");
+    font-family:"baconfarm";
+    
+}
+
+@font-face {
+    src:url("FONTS/wikidregular-a7v7.ttf");
+    font-family:"wikid";
+}
+
+body {
+    background-image: url(../IMAGES/blue-clouds.gif);
+    background-size: cover;
+    height: auto;
+    padding: auto;
+    margin: auto;
+}
+
+nav {
+   background-color:; 
+}
+
+nav ul {
+    text-align: center;
+    margin-right: 70px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 100px;
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    font-family:monospace;
+    text-align: center;
+    letter-spacing:;
+    text-shadow: 0 0 40px gold;
+    font-weight: bold;
+}
+
+.navlink {
+    background-color:;
+    text-decoration:none;
+    color:gold; 
+    cursor: pointer;
+}
+
+a:hover {
+    background-color:invert;
+    color:white; 
+}
+
+.logo-img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    filter: invert(86%) sepia(32%) saturate(5532%) hue-rotate(5deg) brightness(108%) contrast(111%) drop-shadow( 0 0 10px gold);
+}
+
+h3 {
+    color: gold;
+}
+
+.grid {
+    display: grid;
+    grid-gap:;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.dates {
+    text-decoration: none;
+    color: gold;
+    font-family: sans-serif ,wikid ,baconfarm;
+    font-weight:bold;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 30px gold;
+    line-height: 22px;
+}
+
+p {
+    text-decoration: none;
+    color: gold;
+    font-family:sans-serif, wikid, baconfarm;
+    font-weight:;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    text-shadow: 0 0 30px gold;
+}
+
+.grid-1 {
+    text-align: right;
+    width: 60%;
+}
+
+.grid-2 {
+    text-align: right;
+    width: 60%;
+}
+
+.grid-3 {
+    text-align: right;
+    width: 60%;
+}

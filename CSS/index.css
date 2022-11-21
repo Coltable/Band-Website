@@ -1,0 +1,145 @@
+@font-face {
+    src:url("FONTS/baconfarm.ttf");
+    font-family:"baconfarm";
+    
+}
+
+@font-face {
+    src:url("FONTS/wikidregular-a7v7.ttf");
+    font-family:"wikid";
+}
+
+body {
+    background-image: url(../IMAGES/clouds.gif);
+    background-size: cover;
+    height: auto;
+    padding: auto;
+    margin: auto;
+}
+
+nav {
+   background-color:; 
+}
+
+nav ul {
+    text-align: center;
+    margin-right: 70px
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 100px;
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 40px white;
+    letter-spacing:;
+}
+
+.navlink {
+    background-color:;
+    text-decoration:none;
+    color:black; 
+    cursor: pointer;
+}
+
+a:hover {
+    background-color:invert;
+    color:white; 
+}
+
+.logo-img {
+    display: block;
+    width: 100%px;
+    height: 100%px;
+    margin: auto
+}
+
+.content {
+    font-family: serif;          
+    color: #fff;
+    font-size:180%;
+    margin: 0;
+    position:relative;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon {
+    width: 30px;
+}
+
+.active {
+  background-color:;
+  color:orangered;
+}
+
+.grid {
+    display: grid;
+    grid-gap: ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.grid-item {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.grid-img {
+    width: 70%;
+    height: 70%; 
+    background-color: ;
+}
+
+.grid-item .grid-img {
+
+}
+
+.grid-img-text {
+    font-family: wikid,baconfarm;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    font-weight:;
+    margin-top: 25px;
+}
+
+#grid-img1:hover {
+    content: url('../IMAGES/SHOP/tshirt1a.png');
+}
+
+#grid-img2:hover {
+    content: url('../IMAGES/SHOP/tshirt2a.png');
+}
+
+#grid-img3:hover {
+    content: url('../IMAGES/SHOP/tshirt3a.png');
+}
+
+#grid-img4:hover {
+    content: url('../IMAGES/SHOP/tshirt4a.png');
+}
+
+#grid-img5:hover {
+    content: url('../IMAGES/SHOP/tshirt5a.png');
+}
+
+#grid-img6:hover {
+    content: url('../IMAGES/SHOP/tshirt6a.png');
+}
+
+#grid-img7:hover {
+    content: url('../IMAGES/SHOP/tshirt7a.png');
+}
+
+#grid-img8:hover {
+    content: url('../IMAGES/SHOP/tshirt8a.png');
+}

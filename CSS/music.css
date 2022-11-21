@@ -1,0 +1,120 @@
+@font-face {
+    src:url("FONTS/baconfarm.ttf");
+    font-family:"baconfarm";
+    
+}
+
+@font-face {
+    src:url("FONTS/wikidregular-a7v7.ttf");
+    font-family:"wikid";
+}
+
+@font-face {
+    src:url("FONTS/films-raiders.ttf");
+    font-family:"raiders";
+}
+
+body {
+    background-image: url(../IMAGES/orange-clouds.gif);
+    background-size: cover;
+    height: auto;
+    padding: auto;
+    margin: auto;
+}
+
+nav {
+   background-color:; 
+}
+
+nav ul {
+    text-align: center;
+    margin-right: 70px
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 100px;
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 40px white;
+    letter-spacing:;
+}
+
+.navlink {
+    background-color:;
+    text-decoration:none;
+    color:black; 
+    cursor: pointer;
+}
+
+a:hover {
+    background-color:invert;
+    color:white; 
+}
+
+.bg {
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+.bg2 {
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+.ginger {
+    font-family: raiders;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    padding-top:;
+    margin-bottom: 5px
+}
+
+.date {
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info {
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding-top:;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom:;
+}
+
+.albumcover {
+    width: 50%
+}
+
+.album {
+    padding: 30px
+}
+
+.saturation {
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 80px;
+    color:white;
+    font-weight: bold;
+    padding-top: ;
+    margin-bottom:5px;
+    margin-top: 2px;
+}
+
+.cover {
+    width: 30%
+}
+

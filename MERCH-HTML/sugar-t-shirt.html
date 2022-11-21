@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+
+<html>
+    
+    <head>
+        
+        <title>SUGAR T-SHIRT</title>
+        
+        <link rel="stylesheet" type="text/css" href="../CSS/merchproducts.css">
+        
+    </head>
+    
+    <body>
+        
+        <!--The main content of the webpage-->
+        <div class="body">
+            
+            <!--navigation bar-->
+            <nav>
+                
+                <ul>
+                    
+                    <li><a class="navlink" class="active" href="../index.html">HOME</a></li>
+                    <li><a class="navlink" href="../music.html">MUSIC</a></li>
+                    <li><a class="navlink" href="../tour.html">TOUR</a></li>
+                    <li><a class="navlink" href="../band.html">BAND</a></li>
+                    <li><a class="navlink" href="../merch.html">MERCH</a></li>
+                    
+                </ul>
+                
+            </nav>
+            
+            <!--div which contains both left and right side of content-->
+            <div class="product">
+                
+                <!--this div contains both the main product image and also the two toggle images below-->
+                <div class="leftside">
+                    
+                    <div class="product-icon">
+                        
+                        <img class="product-img" id="image" src="../IMAGES/SHOP/tshirt2.png" alt="sugar t-shirt">
+                        
+                    </div>
+                    
+                    <!--inside this tag contains two images which when clicked toggles the main product image front and back-->
+                    <ul class="thumenails">
+                        
+                        <li class="thumenail-icons">
+                            
+                            <img class="thumenail-img" src="../IMAGES/SHOP/tshirt2.png" onclick="showImage('../IMAGES/SHOP/tshirt2.png');" alt="sugar t-shirt">
+                            
+                        </li>
+                        
+                        <li class="thumenail-icons">
+                            
+                            <img class="thumenail-img" src="../IMAGES/SHOP/tshirt2a.png" onclick="showImage('../IMAGES/SHOP/tshirt2a.png');" alt="sugar t-shirt backside">
+                            
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+                
+                <!--this script tag contains the javascript which is needed to toggle between both front and back of the t-shirt-->
+                <script type="text/javascript">
+    
+                    function showImage(imgPath, imgText) {
+                    var curImage = document.getElementById('image');
+                        curImage.src = imgPath;
+                }
+
+                </script>
+                
+                <!--this div contains both the content/info about the product and also the "add to cart" button-->
+                <div class="rightside">
+                    
+                    <div class="content">
+                        
+                        <h1>SUGAR T-SHIRT</h1>
+                        
+                        <div>
+                            
+                            <p>$35</p>
+                            <p>IN STOCK</p>
+                            
+                            <ul class="product-info">
+                                
+                                <li>SCREENPRINTED FRONT + BACK GRAPHICS</li>
+                                <li>6 OZ GARMENT</li>
+                                <li>100% COTTON</li>
+                                
+                            </ul>
+                            
+                            <p>SHIPS IN 3-4 WEEKS</p>
+                            
+                        </div>
+                        
+                        <button type="button" class="add-to-cart">
+                            ADD TO CART
+                        </button>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </body>
+    
+</html>
